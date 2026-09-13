@@ -319,8 +319,6 @@ The framework uses `bddgen --tags` so that only matching scenarios are generated
 
 # 📋 Test Scenarios
 
-The original Python feature files are preserved in the TypeScript framework.
-
 Current scenarios cover:
 
 1. Registration
@@ -332,7 +330,7 @@ Current scenarios cover:
 7. Registration + Login + Delete Account
 8. Invalid login validation
 
-There is also a separate Playwright API test file under `tests/` that demonstrates the independent API coverage from the original Python `pytest` suite.
+There is also a separate Playwright API test file under `tests/` that demonstrates the independent API coverage.
 
 ---
 
@@ -441,7 +439,7 @@ Contains reusable support functions such as:
 
 ## `tests/`
 
-Contains independent Playwright API tests converted from the original Python `pytest` suite.
+Contains independent Playwright API tests.
 
 These tests are useful for learning how the same API can be automated without BDD.
 
@@ -823,7 +821,6 @@ This framework can be used by:
 - Test Automation Leads
 - QA Managers
 - Teams building BDD API automation frameworks
-- Teams migrating from Python Playwright API automation to TypeScript
 
 ---
 
