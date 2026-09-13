@@ -591,7 +591,7 @@ npm run test:independent
 ## Generate HTML Report
 
 ```bash
-npm run allure:generate
+allure generate path\to\allure-results -o allure-report --clean
 ```
 
 Equivalent command:
@@ -601,12 +601,6 @@ allure generate allure-results -o allure-report --clean
 ```
 
 ## Open HTML Report
-
-```bash
-npm run allure:open
-```
-
-Equivalent command:
 
 ```bash
 allure open allure-report
@@ -712,30 +706,6 @@ The framework intentionally avoids:
 - Metaprogramming
 - Excessive interfaces
 - Complex functional programming
-
----
-
-# 🔄 Python → TypeScript Mapping
-
-| Python | TypeScript |
-|---|---|
-| `dict` | Object |
-| `list` | Array |
-| `class` | `class` |
-| `def` | Function |
-| `async def` | `async function` |
-| `None` | `undefined` / `null` |
-| `True` | `true` |
-| `False` | `false` |
-| `print()` | `console.log()` |
-| `assert` | Playwright `expect()` |
-| Behave step | `Given`, `When`, `Then` |
-| Python Playwright request | Playwright `APIRequestContext` |
-| `requirements.txt` | `package.json` |
-| `venv` | Node/npm project |
-
-This makes the migration easier to understand for engineers coming from Python.
-
 ---
 
 # 🧱 Simple API Architecture
