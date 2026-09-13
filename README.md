@@ -10,7 +10,7 @@ Build reliable, maintainable, and reusable API automation using **TypeScript, Pl
 
 # 📖 About
 
-This repository provides a simple and beginner-friendly **TypeScript Playwright API BDD Automation Framework** migrated from a Python Playwright + Behave framework.
+This repository provides a simple and beginner-friendly **TypeScript Playwright API BDD Automation Framework**
 
 The framework uses:
 
