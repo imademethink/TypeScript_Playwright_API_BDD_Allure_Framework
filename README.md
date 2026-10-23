@@ -87,6 +87,105 @@ The goal is:
 
 ---
 
+# 💻 Prerequisites
+
+Install the following before running the framework:
+
+- Node.js LTS
+- npm
+- Git
+- Google Chrome
+- VS Code or another JavaScript IDE
+- Allure Commandline
+
+Check Node.js:
+
+```bash
+node --version
+```
+
+Check npm:
+
+```bash
+npm --version
+```
+
+Check Allure:
+
+```bash
+allure --version
+```
+
+# 🚀 Getting Started
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/imademethink/TypeScript_Playwright_API_BDD_Allure_Framework.git
+```
+
+## 2. Navigate to the Project
+
+```bash
+cd TypeScript_Playwright_API_BDD_Allure_Framework
+```
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+## 4. Install Playwright Browsers
+
+```bash
+npx playwright install
+```
+
+For Linux CI environments:
+
+```bash
+npx playwright install --with-deps
+```
+
+---
+
+# 🧪 Test Execution
+
+## Run Specific Test with a specific tag
+
+```bash
+npm run test:smoke
+```
+
+## Run All Tests
+
+```bash
+npm run test
+```
+
+## Generate Allure (HTML) report
+
+```bash
+allure generate allure-results -o allure-report --clean
+```
+
+## Open Allure (HTML) report
+
+```bash
+allure open allure-report
+```
+
+---
+
+## Run Regression Tests
+
+```bash
+npm run test:regression
+```
+
+---
+
 # 🥒 BDD with Gherkin
 
 BDD allows API scenarios to be written using business-readable Gherkin syntax.
