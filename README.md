@@ -4,6 +4,12 @@
 
 Build reliable, maintainable, and reusable API automation using **TypeScript, Playwright APIRequest, BDD, Gherkin, playwright-bdd, and Allure Reporting**.
 
+<img width="1672" height="941" alt="Ready To Use Automation Framework TypeScript, Playwright, API, BDDgen" src="https://github.com/user-attachments/assets/c270504e-acaa-4144-b6db-46041f58f034" />
+
+# YouTube Video Link
+
+# https://youtu.be/qPx86KIfqpY
+
 ⭐ If this project helps you, please consider giving it a Star!
 
 ---
