@@ -8,7 +8,7 @@ Build reliable, maintainable, and reusable API automation using **TypeScript, Pl
 
 # YouTube Video Link
 
-# https://youtu.be/qPx86KIfqpY
+# https://youtu.be/mDjHTF8UCLU
 
 ⭐ If this project helps you, please consider giving it a Star!
 
